@@ -1,0 +1,10 @@
+---
+    mu: 1 # synthesis rate
+    tau: 0.05 # nuclear export rate
+    nu: 0.0002 # nuclear degradation rate
+    lam: 0.01 # cytosolic degradation rate
+    readlength: 75 # read length in bp
+    coverage: 100 # a decent number of reads per transcript
+    labelingefficiency: 0.02 # 2% is a literature value (Herzog et al. (2017))
+    times: [1, 100, 1] # format: start time, end time, step size
+...
